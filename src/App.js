@@ -1,12 +1,11 @@
+import Hero from "./components/Hero";
+import Menu from "./components/Menu";
 
 function App() {
   return (
     <div>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <Hero/>
+      <Menu/>
     </div>
   );
 }
